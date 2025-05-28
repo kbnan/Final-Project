@@ -1,1 +1,48 @@
-<h1>Hi</h1>
+html,
+body {
+  background-color: #d4a373;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 360px;
+  background-color: #fcf6bd;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#inputField {
+  width: 300px;
+  height: 46px;
+  border: 2px solid black;
+  font-size: 25px;
+  vertical-align: middle;
+  padding: 1px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#addToDo {
+  height: 50px;
+  width: 46px;
+  border: 2px solid black;
+  vertical-align: middle;
+  font-size: 30px;
+  color: #2b2d42;
+}
+
+.to-dos {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.list-item {
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 25px;
+}
