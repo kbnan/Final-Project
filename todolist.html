@@ -1,97 +1,22 @@
-<!--Brooklyn Martinez Sanchez & Kathleen Nanquil-->
-
-<DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <title>To Do List</title>
-    <style>
-      html,
-      body {
-        /*stylig for the whole background*/
-        background-color: #d4a373;
-        width: 50%;
-        margin: 0 auto;
-        font-family: "Indie Flower", cursive;
-        font-weight: 400;
-        font-style: normal;
-
-        .container {
-          /*box atound the list of to dos*/
-          width: 360px;
-          background-color: #fcf6bd;
-          border: 1px solid black;
-        }
-
-        #inputField {
-          /*box to type in -> where you insert the to-dos*/
-          width: 300px;
-          height: 46px;
-          border: 2px solid black;
-          font-size: 25px;
-          vertical-align: middle;
-          padding: 1px;
-          font-family: "Indie Flower", cursive;
-          font-weight: 400;
-          font-style: normal;
-        }
-
-        #addToDo {
-          /*Plus box*/
-          height: 50px;
-          width: 46px;
-          border: 2px solid black;
-          vertical-align: middle;
-          font-size: 30px;
-          color: #2b2d42;
-        }
-
-        .to-dos {
-          /*formatting for the to do list*/
-          margin-top: 20px;
-          padding-left 20px;
-        }
-
-        .list-item {
-          /*formatting for individual lines of the list*/
-          margin-bottom: 12px;
-          cursor: pointer;
-          font-size: 25px;
-        }
-    </style>
-  </head>
-
-  <body>
-    <h1>To Do List</h1>
-    <div class="container">
-      <input id="inputField" type="text"><button id="addToDo">+</button>
-      <ul class="to-do-list" id="toDoContainer"></ul>
-      <div class="to-dos" id="toDoContainer">
-      </div>
-    </div>
-    <script>
-      let addToDoButton = document.getElementById('addToDo');//button element allows the user to click on the add button, which adds their tasks to the list
-      let toDoContainer = document.getElementById('toDoContainer');////the container where the to-do tasks will be displayed and shown
-      let inputField = document.getElementById('inputField');//the input field where the user types into to add their tasks
-      addToDoButton.addEventListener('click', function() {//event listener prompts the button when it is clicked
-        var listItem = document.createElement('li');//creates a bullet point everytime a new item is added
-        listItem.classList.add('list-item'); //CSS for styling the paragraph
-        listItem.innerText = inputField.value; //adds whatever text that the user inputs
-        toDoContainer.appendChild(listItem); //adds the new typed items into the container
-        inputField.value = "";//clears the bar where the user types in their item after adding it into the container/list
-        listItem.addEventListener('click', function() {//event listener to mark the item as done when it is clicked
-          listItem.style.textDecoration = "line-through";//strikes through the item when it is clicked
-        })
-        listItem.addEventListener('dblclick', function() {//event listener to get rid of and delete items when user double-clicks on them
-          toDoContainer.removeChild(listItem);//removes the task/item when double-clicked on by the user
-        })
-      })
-    </script>
-  </body>
-
-  </html>
+<!-- Brooklyn Martinez Sanchez & Kathleen Nanquil -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>To Do List</h1>
+  <div class="container">
+    <input id="inputField" type="text">
+    <button id="addToDo">+</button>
+    <ul class="to-do-list" id="toDoContainer"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
