@@ -84,7 +84,6 @@ h3 {
   border-radius: 25px;
   padding: 40px; /* more padding inside */
   flex-wrap: wrap;
-  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .project-row p {
   flex: 1;
