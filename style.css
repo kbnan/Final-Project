@@ -51,8 +51,8 @@ h3 {
   border: 10px double #618264;
   border-radius: 20px;
   padding: 20px;
-  margin: 20px;
-  max-width: 90vw; /* keeps it within screen size */
+  margin: 20px auto;
+  max-width: 500px;  /* contain width */
   text-align: center;
 }
 
@@ -64,20 +64,23 @@ h3 {
   transform: scale(1.01);
 }
 
-img {
-  width: 94%;
-  max-width: 10000px;
+.banner-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
   border-radius: 10px;
   border: solid #ADC2A9 10px;
   padding: 1rem;
+  display: block;
+  margin: 20px auto;
 }
 
 .screenshot-img {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px; /* sets a medium width limit */
   height: auto;
   display: block;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 20px auto; /* centers the image */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
