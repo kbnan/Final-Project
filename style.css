@@ -94,9 +94,14 @@ h3 {
   border: 10px double #618264;
   border-radius: 20px;
   padding: 20px;
-  flex-wrap: wrap; /* Makes it mobile-friendly */
+  flex-wrap: wrap;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.project-row:hover {
+  background-color: #A8D5BA;
+  transform: scale(1.01);
+}
 .project-row p {
   flex: 1;
   margin: 0;
