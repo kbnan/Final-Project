@@ -67,18 +67,3 @@ img {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
-.todolist,
-.hangman,
-.match,
-.wheel {
-  background-color: #C3E2C2;
-  border: 10px double #618264;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 20px;
-  max-width: 600px;
-  text-align: center;
-}
-
-    
