@@ -72,17 +72,6 @@ h3 {
   display: block;
   margin: 20px auto;
 }
-
-.screenshot-img {
-  width: 100%;
-  max-width: 1000px; 
-  height: auto;
-  display: block;
-  margin: 0 auto 20px auto; /* centers the image */
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 .project-row {
   display: flex;
   flex-direction: row;
@@ -105,7 +94,7 @@ h3 {
   color: #406343;
 }
 
-.project-row .screenshot-img {
+.screenshot-img {
   width: 350px; /* make image wider */
   max-width: 100%;
   height: auto;
