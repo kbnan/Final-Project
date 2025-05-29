@@ -83,4 +83,35 @@ h3 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.project-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  background-color: #C3E2C2;
+  border: 10px double #618264;
+  border-radius: 20px;
+  padding: 20px;
+  flex-wrap: wrap; /* Makes it mobile-friendly */
+}
+
+.project-row p {
+  flex: 1;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #406343;
+}
+
+.project-row .screenshot-img {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
     
