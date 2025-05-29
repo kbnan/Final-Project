@@ -8,7 +8,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #d4c1ec;
+  background-color: #dad7cd;
   justify-content: center;
   align-items: center;
 }
@@ -44,7 +44,7 @@ body {
   padding: 10px 20px;
   border: 2px solid white;
   border-radius: 5px;
-  background-color: #a06cd5;
+  background-color: #588157;
   color: black;
   cursor: pointer;
 }
@@ -96,15 +96,3 @@ body {
 .card.flip {
   transform: rotateY(180deg);
 }
-
-footer a {
-  font-size: 1.1rem;
-  color: #285430;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-  color: #406343;
-}
-
