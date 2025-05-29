@@ -85,6 +85,12 @@ h3 {
   padding: 40px; /* more padding inside */
   flex-wrap: wrap;
 }
+
+.project-row:hover {
+  background-color: #A8D5BA;
+  transform: scale(1.01);
+}
+
 .project-row p {
   flex: 1;
   font-size: 1.1rem; /* larger font */
