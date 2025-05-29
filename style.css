@@ -54,6 +54,14 @@ h3 {
   text-align: center;
 }
 
+.todolist:hover,
+.hangman:hover,
+.match:hover, 
+.wheel:hover {
+  background-color: #A8D5BA;
+  transform: scale(1.01);
+}
+
 .banner-img {
   width: 100%;
   max-width: 10000px;
