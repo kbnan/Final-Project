@@ -1,1 +1,70 @@
-<h1>Hi</h1>
+body {
+  background-color: #F5F5E1; /* soft neutral background */
+  color: #406343; /* dark green text */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #557C55; /* dark sage green */
+  background-color: #C3E2C2; /* soft mint green */
+  padding: 15px;
+  border: solid #285430 5px; /* dark forest green */
+  border-radius: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #285430; /* forest green */
+  background-color: #C1F2B0; /* pale green */
+  padding: 7px;
+  border: solid #406343 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #609966;
+  background-color: #EFE9D8; /* creamy background */
+  border: 3px dashed #7FB77E;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.todolist,
+.match {
+  color: #285430;
+  background-color: #C3E2C2;
+  border: 10px double #618264;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.todolist:hover,
+.match:hover {
+  background-color: #A8D5BA;
+  transform: scale(1.01);
+}
+
+img {
+  width: 94%;
+  max-width: 10000px;
+  border-radius: 10px;
+  border: solid #ADC2A9 10px;
+  padding: 1rem;
+}
+
+.screenshot-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    
