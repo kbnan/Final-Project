@@ -62,6 +62,15 @@ h3 {
   transform: scale(1.01);
 }
 
+.screenshot-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .banner-img {
   width: 100%;
   max-width: 10000px;
@@ -86,11 +95,6 @@ h3 {
   flex-wrap: wrap;
 }
 
-.project-row:hover {
-  background-color: #A8D5BA;
-  transform: scale(1.01);
-}
-
 .project-row p {
   flex: 1;
   font-size: 1.1rem; /* larger font */
@@ -99,7 +103,7 @@ h3 {
   color: #406343;
 }
 
-.screenshot-img {
+.project-row .screenshot-img {
   width: 350px; /* make image wider */
   max-width: 100%;
   height: auto;
